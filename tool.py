@@ -18,7 +18,6 @@ class FinancialInstrument:
         es = var / confidence_level
         return es
 
-# Example usage:
 if __name__ == "__main__":
     # Create instances of financial instruments
     stock_A = FinancialInstrument("AAPL", 150.0, 0.2)  # Symbol, Price, Volatility
